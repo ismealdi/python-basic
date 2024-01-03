@@ -8,7 +8,7 @@ def jumlah_kata(kalimat: str):
   # Menghitung jumlah kata
   return len(kata_kata)
 
-kalimat = "Halo, nama saya john doe dan saya"
+kalimat = "Halo saya aldi"
 jumlah = jumlah_kata(kalimat)
 
 print(jumlah)

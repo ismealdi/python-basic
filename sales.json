@@ -1,0 +1,22 @@
+[
+  {
+    "customer_name": "John Doe",
+    "total_transaction": 50.25
+  },
+  {
+    "customer_name": "Jane Smith",
+    "total_transaction": 123.99
+  },
+  {
+    "customer_name": "Michael Chen",
+    "total_transaction": 78.60
+  },
+  {
+    "customer_name": "Alice Miller",
+    "total_transaction": 34.78
+  },
+  {
+    "customer_name": "David Johnson",
+    "total_transaction": 99.90
+  }
+]

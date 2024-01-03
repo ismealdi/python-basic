@@ -1,0 +1,50 @@
++-----------------------+        +----------------------+        +-------------------+
+|      Accounting      |        |      Purchase        |        |       POS         |
+|      Module           |        |      Module          |        |       Module      |
++-----------+-----------+        +-----------+----------+        +-----------+-------+
+            |                              |                              |
+            v                              v                              v
+    +------------------+           +----------------+           +-----------------+
+    |  Configuration   |           |  Vendor        |           |   Configuration  |
+    |  - Company info   |           |  Management   |           |   - POS locations|
+    |  - Chart of Acc.  |           |  - Purchase    |           |   - Payment meth.|
+    |  - Fiscal Year    |           |    Requisitions|           |   - Taxes         |
+    +--------+---------+           +---------+------+           +--------+--------+
+             |                              |                              |
+             v                              v                              v
+    +------------------+           +----------------+           +-----------------+
+    | Vendors & Cust.  |           | Purchase Order |           |  Product Manage.|
+    |   Management     |           |    Creation    |           |   - Add products |
+    | - Customer Invoices|          |    - Approval  |           |   - Details      |
+    | - Vendor Bills    |           |                |           +--------+--------+
+    | - Payments        |           +--------+-------+                     |
+    | - Bank/Cash Trans.|                    |                             |
+    | - Reconciliation  |                    v                             |
+    | - Financial Rep.  |           +--------+-------+                     |
+    +-------------------+           | Goods Receipt |                     |
+                                    | - Inventory   |                     |
+                                    |   Update     |                     |
+                                    +--------+-------+                     |
+                                             |                             |
+                                             v                             |
+                                    +--------+--------+                    |
+                                    | Vendor Bills   |                    |
+                                    | - Registration |                    |
+                                    | - Payment      |                    |
+                                    +----------------+                    |
+                                                                              |
+                                                                              v
+                                                                    +---------+--------+
+                                                                    | Sales Process   |
+                                                                    | - Sales Trans.  |
+                                                                    | - Receipt Gen.  |
+                                                                    | - Payment Proc. |
+                                                                    | - Inventory Upd.|
+                                                                    +-----------------+
+                                                                             |
+                                                                             v
+                                                                    +---------+--------+
+                                                                    |  Reporting      |
+                                                                    | - Sales Reports  |
+                                                                    | - Inventory Rep. |
+                                                                    +-----------------+
